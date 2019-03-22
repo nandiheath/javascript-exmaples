@@ -1,0 +1,24 @@
+{
+  "name": "03_html_with_npm_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "moment": "^2.24.0",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
